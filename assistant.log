@@ -1,0 +1,36 @@
+Fri Mar 13 05:39:15 UTC 2026 | USER: install httpd and nmap
+Fri Mar 13 05:39:15 UTC 2026 | ASSISTANT: Installing httpd and nmap. This command will require superuser privileges.
+Fri Mar 13 05:40:40 UTC 2026 | CMD: sudo dnf install httpd nmap
+Fri Mar 13 05:40:40 UTC 2026 | OUTPUT: Last metadata expiration check: 1:23:26 ago on Fri Mar 13 04:15:50 2026.
+Dependencies resolved.
+================================================================================
+ Package               Arch     Version                     Repository     Size
+================================================================================
+Installing:
+ httpd                 x86_64   2.4.66-1.amzn2023.0.1       amazonlinux    47 k
+ nmap                  x86_64   3:7.93-4.amzn2023           amazonlinux   5.5 M
+Installing dependencies:
+ apr                   x86_64   1.7.5-1.amzn2023.0.4        amazonlinux   129 k
+ apr-util              x86_64   1.6.3-1.amzn2023.0.2        amazonlinux    97 k
+ apr-util-lmdb         x86_64   1.6.3-1.amzn2023.0.2        amazonlinux    13 k
+ generic-logos-httpd   noarch   18.0.0-12.amzn2023.0.3      amazonlinux    19 k
+ httpd-core            x86_64   2.4.66-1.amzn2023.0.1       amazonlinux   1.4 M
+ httpd-filesystem      noarch   2.4.66-1.amzn2023.0.1       amazonlinux    13 k
+ httpd-tools           x86_64   2.4.66-1.amzn2023.0.1       amazonlinux    81 k
+ libbrotli             x86_64   1.0.9-4.amzn2023.0.2        amazonlinux   315 k
+ libssh2               x86_64   1.10.0-1.amzn2023.0.3       amazonlinux   120 k
+ mailcap               noarch   2.1.49-3.amzn2023.0.3       amazonlinux    33 k
+ nmap-ncat             x86_64   3:7.93-4.amzn2023           amazonlinux   225 k
+Installing weak dependencies:
+ apr-util-openssl      x86_64   1.6.3-1.amzn2023.0.2        amazonlinux    15 k
+ mod_http2             x86_64   2.0.27-1.amzn2023.0.3       amazonlinux   166 k
+ mod_lua               x86_64   2.4.66-1.amzn2023.0.1       amazonlinux    60 k
+
+Transaction Summary
+================================================================================
+Install  16 Packages
+
+Total download size: 8.2 M
+Installed size: 32 M
+Is this ok [y/N]: Operation aborted.
+--------------------------------------
